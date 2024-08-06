@@ -20,7 +20,7 @@ while True:
     for _ in range(n):
         graph.append(list(map(int, input().split())))
 
-
+    # min heap 사용을 통해서 가장 작은 코스트로 가는 방식을 먼저 탐색
     heapq.heappush(q, (graph[0][0], 0, 0))
 
     while q:
