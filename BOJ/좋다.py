@@ -4,7 +4,7 @@ answer = 0
 
 numbers = list(map(int, input().split()))
 
-# 슬라이딩 윈도우 방식을 사용하기 위해 정렬
+# 투 포인터 방식을 사용하기 위해 정렬
 numbers.sort()
 
 # 모든 경우의 수 탐색
