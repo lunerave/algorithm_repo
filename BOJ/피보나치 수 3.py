@@ -25,7 +25,7 @@ memo = [0, 1]
 
 mod = 1000000
 
-p = mod // 10*15
+p = (10**5)*15
 
 for i in range(2, p):
     memo.append((memo[i-1] + memo[i-2])%mod)
